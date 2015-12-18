@@ -70,14 +70,14 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid black;
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
 .tag {
-  background-color: #efefef;
+  background-color: gray;
   color: black;
   padding: 10px;
   border-radius: 5px;
@@ -97,6 +97,7 @@ header .profile-image:hover {
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
   transition: all .5s;
+  background-color: gray;
 }
 .card:hover {
   border-color: #ff99ff;
